@@ -1,0 +1,43 @@
+<!DOCTYPE html>
+<html lang="es">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <link rel="stylesheet" href="styles.css">
+    <title>3D Musical Innovations</title>
+</head>
+<body>
+    <!-- Contenedor de bienvenida -->
+    <div id="welcome-screen" class="welcome-screen">
+        <h1 class="welcome-text">3D Musical Innovations</h1>
+    </div>
+
+    <header style="display: none;">
+        <h1>Catálogo de Productos</h1>
+    </header>
+
+    <main style="display: none;">
+        <div class="product-container" id="product-container">
+            <!-- Los productos se añadirán aquí mediante JavaScript -->
+        </div>
+
+        <!-- Contenedor de detalles del producto -->
+        <div class="product-detail" id="product-detail" style="display: none;">
+            <button class="close-btn" onclick="closeDetail()">X</button>
+            <img id="detail-image" class="product-image" alt="Imagen del producto">
+            <h3 id="detail-title" class="product-title"></h3>
+            <p id="detail-description"></p>
+            <p id="detail-price" class="product-price"></p>
+            <label for="quantity">Cantidad:</label>
+            <input type="number" id="quantity" name="quantity" min="1" value="1">
+            <a id="whatsapp-link" target="_blank" class="whatsapp-button">Contactar por WhatsApp</a>
+        </div>
+    </main>
+
+    <footer style="display: none;">
+        <p>&copy; 2024 3D Musical Innovations</p>
+    </footer>
+
+    <script src="script.js"></script>
+</body>
+</html>
