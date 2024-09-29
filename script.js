@@ -75,7 +75,7 @@ function showProductDetail(product) {
     document.getElementById('detail-price').textContent = product.price;
     
     // Crear el enlace de WhatsApp
-    const whatsappNumber = "123456789"; // Reemplaza con tu número de WhatsApp
+    const whatsappNumber = "50376215786"; // Reemplaza con tu número de WhatsApp
     const whatsappLink = document.getElementById('whatsapp-link');
 
     document.getElementById('quantity').value = 1; // Restablecer la cantidad a 1
